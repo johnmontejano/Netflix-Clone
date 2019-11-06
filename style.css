@@ -1,14 +1,28 @@
+*{
+    margin: 0;
+}
+a:hover{
+    color:white;
+}
 body{
     font-size: 14px;
 }
 .jumbotron{
+    color:white;
+    border-radius:none;
+
+}
+.hero-bg{
     background: url('https://www6.lunapic.com/do-not-link-here-use-hosting-instead/157296803387081179?5790908');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color:white;
-    border-radius:none;
-
+    
+}
+.text-center{margin: 0;}
+.tv-bg{
+    background: black;
+    margin: 0;
 }
 .red-button{
     background: red;
